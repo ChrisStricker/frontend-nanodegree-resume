@@ -118,13 +118,13 @@ var project = {
 			"title": "Portfolio",
 			"dates": "2015",
 			"description": "Portfolio website that provides links to the projects I am building in this course.",
-			"images": [ ],
+			"images": [ "images/project1-clip.png" ],
 		},
 		{
 			"title": "Resume",
 			"dates": "2015",
 			"description": "Resume website that provides information on who I am and what I have done.",
-			"images": [ ],
+			"images": [ "images/project2-clip.png" ],
 		}
 		],
 		"display" : function() {
