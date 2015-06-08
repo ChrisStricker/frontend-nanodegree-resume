@@ -17,7 +17,7 @@ var bio = {
 				.prepend(HTMLheaderName.replace("%data%",bio.name))
 				.append(HTMLbioPic.replace("%data%",bio.pictureUrl));
 			$("#header").append(HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg));
-			$("#topContacts").append(HTMLcontactGeneric.replace("%contact%", "home").replace("%data%",bio.contacts.home))
+			$("#topContacts, #footerContacts").append(HTMLcontactGeneric.replace("%contact%", "home").replace("%data%",bio.contacts.home))
 				.append(HTMLmobile.replace("%data%",bio.contacts.mobile))
 				.append(HTMLemail.replace("%data%",bio.contacts.email))
 				.append(HTMLtwitter.replace("%data%",bio.contacts.twitter))
